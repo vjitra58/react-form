@@ -1,0 +1,36 @@
+.left-wrapper{
+    /* background-color: rgb(247, 98, 98); */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.left-heading > p{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+    /* background-color: aqua; */
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+.left-slogan > p{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    /* background-color: aquamarine; */
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .left-wrapper{
+        width: 100%;
+    }
+}
